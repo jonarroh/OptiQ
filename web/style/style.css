@@ -1,0 +1,117 @@
+body {
+	background: rgb(90, 127, 223);
+	background: linear-gradient(
+		0deg,
+		rgba(90, 127, 223, 1) 0%,
+		rgba(72, 107, 198, 1) 66%
+	);
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+		0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.bold {
+	font-weight: normal;
+}
+
+.qua1 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #385499;
+}
+.lite1 {
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+.button-svg {
+	border: 2px solid transparent;
+	border-radius: 5px;
+	background-color: transparent;
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+	justify-content: start !important;
+}
+
+.offBlue {
+	background-color: #385499;
+	color: white;
+}
+
+.opciones {
+	list-style: none;
+	height: 80%;
+	width: 100%;
+	padding: 0;
+}
+.item {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	width: 100%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.item-top {
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.centrar {
+	height: 100vh;
+	display: grid;
+	place-content: center;
+}
+
+.tarjeta {
+	width: 450px;
+}
+@media (max-width: 600px) {
+	.tarjeta {
+		width: 300px;
+	}
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}
+
+.link:hover {
+	color: black;
+}
+
+.seleccionar {
+	margin: 20px;
+	margin-bottom: 10px;
+	background-color: wheat;
+	width: 70%;
+	height: 85vh;
+	border-radius: 5px;
+}
+.historial {
+	margin-top: 20px;
+	margin-left: 5px;
+	background-color: wheat;
+	width: 25%;
+	height: 85vh;
+	border-radius: 5px;
+}
+.mainCon {
+	display: flex;
+}
