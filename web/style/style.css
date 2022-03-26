@@ -1,11 +1,14 @@
-body {
+.contenido {
 	background: rgb(90, 127, 223);
 	background: linear-gradient(
 		0deg,
 		rgba(90, 127, 223, 1) 0%,
-		rgba(72, 107, 198, 1) 66%
+		rgba(72, 107, 198, 1) 33%
 	);
+	background-repeat: no-repeat;
+	height: 100vh;
 }
+
 * {
 	padding: 0;
 	margin: 0;
@@ -89,11 +92,12 @@ nav {
 
 .link {
 	text-decoration: none;
-	color: white;
+	color: #4a6ec7;
+	cursor: pointer;
 }
 
 .link:hover {
-	color: black;
+	color: #2d4279;
 }
 
 .seleccionar {
